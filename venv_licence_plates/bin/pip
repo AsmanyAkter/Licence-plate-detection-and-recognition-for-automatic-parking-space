@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/media/asmany/e054e025-4de0-482e-bf54-4fb67a1e5566/Hof University/AI Project/Licence-plate-detection-and-recognition-for-automatic-parking-space/venv_licence_plates/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
