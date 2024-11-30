@@ -37,7 +37,14 @@ YOLOv8s (Small): A lightweight model used for comparison.
 
 YOLOv9c: Tested for performance benchmarking.
 
-Best Detection Model: YOLOv8n was selected based on evaluation metrics (Box P, R, mAP50, and mAP50-95).
+| Model     | Precision (P) | Recall (R) | mAP@50 | mAP@50-95 | Preprocessing Time (ms) | Inference Time (ms) |
+|-----------|---------------|------------|--------|-----------|-------------------------|----------------------|
+| YOLOv9c   | 0.929         | 0.945      | 0.950  | 0.736     | 0.1                     | 6.1                  |
+| YOLOv8s   | 0.946         | 0.950      | 0.951  | 0.752     | 0.1                     | 1.7                  |
+| YOLOv8n   | 0.949         | 0.940      | 0.949  | 0.742     | 0.1                     | 1.3                  |
+
+
+Best Detection Model: YOLOv8n was selected based on evaluation metrics.
 
 Text Recognition: PaddleOCR was integrated for extracting the text from detected license plates.
 
