@@ -3,6 +3,10 @@ This project implements a system for detecting and recognizing license plates in
 
 
 Here are some sample results:
+<div align="center" style="display: flex; gap: 20px;">
+  <img src="Inferenced_Images/annotated_03fe4b804d6f46c6.jpg" alt="License Plate Detection" style="height: 300px; object-fit: cover;">
+  <img src="Inferenced_Images/annotated_JSP7678_rain.jpg" alt="License Plate Detection in Rain" style="height: 300px; object-fit: cover;">
+</div>
 
 <p align="center">
   <img src="Inferenced_Images/annotated_03fe4b804d6f46c6.jpg" alt="License Plate Detection" height="300">
