@@ -2,6 +2,17 @@
 This project implements a system for detecting and recognizing license plates in automatic parking spaces. The solution is built using YOLO-based object detection models for license plate localization and PaddleOCR for text recognition.
 
 
+Here are some sample results:
+
+<p align="center">
+  <img src="Inferenced_Images/annotated_03fe4b804d6f46c6.jpg" alt="License Plate Detection" height="300">
+  <img src="Inferenced_Images/annotated_JSP7678_rain.jpg" alt="License Plate Detection in Rain" height="300">
+</p>
+
+<p align="center">
+  <img src="Inferenced_Images/annotated_4a1e22f4441eceb3.jpg" alt="License Plate Detection" height="300">
+  <img src="Inferenced_Images/annotated_NZJ6581_fog.jpg" alt="License Plate Detection in Rain" height="300">
+</p>
 
 
 # Project Overview
