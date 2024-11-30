@@ -43,9 +43,9 @@ YOLOv9c: Tested for performance benchmarking.
 | YOLOv8n   | 0.949         | 0.940      | 0.949  | 0.742     | 0.1                     | 1.3                  |
 
 
-Best Detection Model: YOLOv8n was selected based on evaluation metrics.
+# Best Detection Model: YOLOv8n was selected based on evaluation metrics.
 
-Text Recognition: PaddleOCR was integrated for extracting the text from detected license plates.
+# Text Recognition: PaddleOCR was integrated for extracting the text from detected license plates.
 
 # Installation and Setup
 Clone the repository:
